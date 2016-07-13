@@ -1,5 +1,6 @@
 * {
-	margin: 0px;
+	margin: 0 0 0 0;
+	padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6, p,ul{
@@ -40,18 +41,23 @@ nav h1{
 	line-height: 50px;
 }
 
-.bigBack{
+.big-back{
 	height: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
 
-#about{
+.about-container{
+	height: 1000px;
+	text-align: center;
 	padding-top:10%;
-	padding-left:50%;
 	background-image: 
 	url(../images/liberty.jpg);
+}
+
+.hr-style{
+	border: 1px solid black;
 }
 
 #resume {

@@ -4,6 +4,9 @@
 	<meta charset="UTF-8">
 	<title>Yamiel's Web Resume</title>
 	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 	<!--script src="js/"></script-->
 </head>
 <body>
@@ -16,51 +19,59 @@
 		</div>
 	</nav>
 
-	<div class="bigBack" id="about">
-		<p>I am a UConn graduate pursing a career in software engineering</p>
-	</div>
+	<div class="container-fluid">
 
-	<div id="resume">
-		<dl>
-			<dt>Education</dt>
+		<section id="about"></section>
+		<div class="row about-container">
+			<div class="col-lg-12 text-center">
+				<p>I am a UConn graduate pursing a career in software engineering</p>
+			</div>
+		</div>
+		
+		<section id="resume"></section>
+		<div class="row resume-container">
+			<div class="col-lg-12 education">
+				<div class="col-lg-offset-1 col-lg-11">
+					<h2>Education</h2>
+				</div>
+				<div class="col-lg-offset-2 col-lg-10">
+					<h4>University of Connecticut</h4>
+				</div>
+				<div class="col-lg-offset-2 col-lg-10">
+					<h5>BS, Engineering, Computer Science and Engineering  2014</h5>
+				</div>
+			</div>
+			<hr class="hr-style">
+			<div class="col-lg-12 work">
+				<div class="col-lg-offset-1 col-lg-11">
+					<h2>Work</h2>
+				</div>
 
-			<dd>
-				<p>
-					<t>University of Connecticut</t>
-					<br>
-					BS, Engineering, Computer Science and Engineering  2014
-				</p>
-			</dd>
-		</dl>
-		<dl>
-			<dt>Work</dt>
-			<dd>
-				<!-- Universal Staffing-->
-				<h4>Universal Staffing Service, Hartford, CT – September 2015 - December 2015
-					<br>
-					IT Supply Chain Analyst, Pratt and Whitney; East Hartford, CT </h4>
-					<ul>
-						<li>Analyze supply chain data utilizing computer tools like MS Access and MS Excel 
-						</li>
-						<li>Create analysis suites to visualize the nature of the supply chain 
-						</li>
-					</ul>
-					<!-- INROADS-->
+				<div class="col-lg-offset-2 col-lg-10">
+					<h4>Universal Staffing Service, Hartford, CT – September 2015 - December 2015</h4>
+				</div>
+				<div class="col-lg-offset-2 col-lg-9">
+					<p>Analyze supply chain data utilizing computer tools like MS Access and MS Excel</p>
+					<p>Create analysis suites to visualize the nature of the supply chain</p>
+				</div>
+				
+				<div class="col-lg-offset-2 col-lg-10">
 					<h4>INROADS Internship Program, Hartford, CT – June 2011 - September 2014</h4>
-					<ul>
-						<li>IT Summer Internship; Pratt and Whitney; East Hartford, CT — June 2014 - September 2014</li>
-						<li>IT Network Services Intern; UTC Corporate, Newington, CT — June 2013 - August 2013</li>
-						<li>IT Business Intelligence Intern; Pratt and Whitney, East Hartford, CT — June 2012 - August 2012</li>
-						<li>IT Supply & Demand and Logistics Intern; Pratt and Whitney, East Hartford, CT — June 2011 - August 2011</li>
-					</ul>
-				</dd>
-			</dl>
+				</div>
+				<div class="col-lg-offset-2 col-lg-9">
+					<p>IT Summer Internship; Pratt and Whitney; East Hartford, CT — June 2014 - September 2014</p>
+					<p>IT Network Services Intern; UTC Corporate, Newington, CT — June 2013 - August 2013</p>
+					<p>IT Business Intelligence Intern; Pratt and Whitney, East Hartford, CT — June 2012 - August 2012</p>
+					<p>IT Supply & Demand and Logistics Intern; Pratt and Whitney, East Hartford, CT — June 2011 - August 2011</p>
+				</div>
+			</div>
 		</div>
 
-		<div class="bigBack" id="skills">
-			<p>Skills Section</p>
+		<section id="skills"></section>
+		<div class="big-back" id="skills">
+			<p>Skills Section</p>	
 		</div>
 
-
-	</body>
-	</html>
+	</div>
+</body>
+</html>
